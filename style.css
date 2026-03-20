@@ -25,8 +25,32 @@ video {
     width: 100%;
     border-radius: 4px;
 }
-h2 {
+
+/* Titres des vidéos (anciennement h2) */
+h3 {
     font-size: 1.2em;
     margin: 10px 0;
     color: #555;
+}
+
+/* Sections de catégories */
+.category {
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #ddd; /* Le trait de séparation */
+}
+
+/* Pas de trait pour la dernière catégorie */
+.category:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Titres de catégorie */
+.category-title {
+    text-align: center;
+    color: #444;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
