@@ -3,16 +3,19 @@ body {
     margin: 20px;
     background-color: #f0f0f0;
 }
+
 h1 {
     text-align: center;
     color: #333;
 }
+
 .video-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
+
 .video-card {
     background: white;
     padding: 10px;
@@ -21,32 +24,29 @@ h1 {
     width: 320px;
     text-align: center;
 }
+
 video {
     width: 100%;
     border-radius: 4px;
 }
 
-/* Titres des vidéos (anciennement h2) */
 h3 {
     font-size: 1.2em;
     margin: 10px 0;
     color: #555;
 }
 
-/* Sections de catégories */
 .category {
     margin-bottom: 50px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #ddd; /* Le trait de séparation */
+    border-bottom: 2px solid #ddd;
 }
 
-/* Pas de trait pour la dernière catégorie */
 .category:last-of-type {
     border-bottom: none;
     margin-bottom: 0;
 }
 
-/* Titres de catégorie */
 .category-title {
     text-align: center;
     color: #444;
